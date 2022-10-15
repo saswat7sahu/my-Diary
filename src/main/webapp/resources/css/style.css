@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+body{
+    position: relative;
+    background-color:black ;
+    height: 100vh;
+}
+
+#container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    background-color:cyan;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 80px;
+}
+#container table td{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: dimgrey;
+}
+#container input {
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 20px;
+}
