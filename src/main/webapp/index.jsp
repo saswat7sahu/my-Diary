@@ -9,13 +9,17 @@
 </head>
 <body>
 <form action="log">
-    <div id="container">
-        <table>
-            <tr><td>user name</td><td><input type="text" name="uname"></td></tr>
-            <tr><td>password</td><td><input type="password" name="password"></td></tr>
-            <div id="btnsub"><tr><td><a href="register.jsp"><input type="button" value="register"></a></td><td><input type="submit"></td></tr></div>
-        </table>
-    </div>
+       <div class="login-page">
+        <div class="form">
+          
+          <form class="log">
+            <input type="text" placeholder="username"/>
+            <input type="password" placeholder="password"/>
+            <button>login</button>
+            <p class="message">Not registered? <a href="register.jsp">Create an account</a></p>
+          </form>
+        </div>
+      </div>
 </form>
 </body>
 </html>

@@ -8,14 +8,16 @@
 <title>registration page</title>
 </head>
 <body>
+<div class="login-page">
+ <div class="form">
 <form action="register">
-    <div id="container">
-        <table>
-            <tr><td>user name</td><td><input type="text" name="uname"></td></tr>
-            <tr><td>password</td><td><input type="password" name="password"></td></tr>
-            <div id="btnsub"><tr><td><input type="submit"></td></tr></div>
-        </table>
-    </div>
+            <input type="text" name="uname" placeholder="username">
+            <input type="password" name="password" placeholder="password">
+            <input type="password" name="cpassword" placeholder="confirm password">
+            <button>submit</button>
 </form>
+</div>
+</div>
+
 </body>
 </html>
